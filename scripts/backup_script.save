@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#Author: Tawfiq
+#Date Created: 19-05-2022
+#Last Modified: 19-05-2022
+#Description
+#For backup all files in study directory and save in .tar archive.
+
+#Usage
+#Selected group of person will use this with owner. But anybody can read this file.
+
+echo "Hello, ${USER^}"
+echo "I will now backup your home directory, $HOME"
+curentdir=$(pwd)
+echo "You are running this script from $
+
+tar -cvf ~/study/bash/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/study
+exit 0
+ 

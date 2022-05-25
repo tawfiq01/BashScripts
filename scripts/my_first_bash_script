@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Author: Tawfiq
+#Date Created: 18-05-2022
+#Date Modified: 18-05-2022
+
+#Description: First comment test
+
+#Usage: My first comment test
+
+echo "this is my first script"
+exit 0
