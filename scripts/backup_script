@@ -2,7 +2,7 @@
 
 #Author: Tawfiq
 #Date Created: 19-05-2022
-#Last Modified: 19-05-2022
+#Last Modified: 25-05-2022
 #Description
 #For backup all files in study directory and save in .tar archive.
 
@@ -10,8 +10,12 @@
 #Selected group of person will use this with owner. But anybody can read this file.
 
 echo "Hello, ${USER^}"
-
-cd ~
-tar -cvf ~/study/bash/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/study
+echo "I will now backup your study directory, $HOME/study"
+currentdir=$(pwd)
+backupdir="/ ~/study/bash"
+echo "You are running this script from $currentdir"
+echo "Therefore, I will save the backup in ~/study/bash" 
+tar -cvf ~/study/bash/my_backup_"$(date +%d-%m-%Y_%H-%M-%S)".tar ~/study 2>/dev/null
+echo "Backup Complete"
 exit 0
  
