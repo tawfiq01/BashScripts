@@ -1,0 +1,12 @@
+#Author: Tawfiq
+#Date Created: 26-05-2022
+#Last Modified: 26-05-2022
+#Description
+#Range value as text
+
+#Usage
+#Range Value
+
+echo {1..100..5}
+echo month{01..12}
+exit 0
