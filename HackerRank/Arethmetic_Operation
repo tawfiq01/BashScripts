@@ -1,0 +1,11 @@
+!#/bin/bash
+#Author: Tawfiq
+#Date Created: 31-05-2022
+#Last Modified: 31-05-2022
+#Description
+#Arethmetic Problem
+
+#Usage
+#bc & float practice
+read x
+printf "%.3f" $(echo "$x" | bc -l)
