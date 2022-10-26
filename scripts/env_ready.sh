@@ -30,6 +30,7 @@ sudo apt update&&sudo apt upgrade
 #sudo apt install ./zoom_amd64.deb
 
 #Spotify
-sudo snap install spotify
+#sudo snap install spotify
 
-
+#Pycharm
+#sudo snap install pycharm-educational --classic
